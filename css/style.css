@@ -1,0 +1,471 @@
+.container{
+      max-width: 1320px;
+  margin:0 auto;
+  padding: 0px 20px 0 20px;
+}
+header{
+  
+  background: #F9FAFD;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+.main{
+  font-family: Roboto;
+  display: flex;
+  justify-content: space-between ;
+  padding: 10px 0 10px 0; 
+  align-items: center;
+    
+}
+.menu{
+  display: flex;
+  list-style: none;
+  padding:0 ;
+}
+.menu li{
+  margin: 0px 30px 0 0px;
+}
+.menu li:nth-last-child(1){
+  margin: 0;
+}
+.top-menu-main{
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+.Hi{
+  font-family: 'Gilroy-Medium', sans-serif;
+}
+.Hi:before{
+    content: '';
+    display: inline-block;
+    width: 13px;
+    padding: 0px 0px 0 0;
+    margin: 0px 7px 0 0;
+    height: 1px;
+    transform: translateY(-5px);
+    background: #000;
+}
+h1{
+  font-family: 'Gilroy-Heavy', sans-serif;
+  font-size: 4em !important;
+  margin: 0 !important;
+}
+.leftMainInfo{
+  margin: 247px 0 0 0;
+  flex:1;
+}
+.leftMainInfo p{
+  font-family: Roboto;
+}
+.Me{
+  flex:0.5;
+  display: flex;
+    align-items: flex-end;
+}
+.Me img{
+
+  position:  relative;
+ 
+    height: 90%;
+
+}
+.flexMainCon{
+  display: flex;  
+  justify-content: space-between;
+}
+.contacts{
+  margin: 200px 0 0 0;
+}
+.contacts i{
+ font-size: 35px;
+}
+button{
+padding: 10px 25px 10px 25px;
+    background: #092A7E;
+    border: 0;
+
+}
+.buttonWrap{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 50px 0;
+}
+button span{
+   color: #fff ;
+font-family: Gilroy-bold ;
+}
+.fa-youtube:before{
+      margin: 0 0px 0 21px;
+
+}
+.leftAbout img{
+  width: 100%;
+}
+.circle{
+  width:  100px;
+  height:   100px;
+  background:  #092A7E ;
+  position: absolute; 
+}
+
+.Me{
+  position: relative;
+
+}
+.flex{
+  display: flex;
+  margin: 100px 0 100px 0;
+}
+
+.rightAbout h2{
+ font-family: Gilroy-heavy;
+    font-size: 43px;
+    margin: 0;
+}
+.rightAbout p{
+  font-family: Gilroy-regular;
+  font-size: 20px;
+}
+.rightAbout {
+  padding: 25px 49px 25px 65px;
+}
+.leftAbout{
+  flex:1.2;
+      display: flex;
+    align-items: center;
+}
+
+.skillTitles{
+  font-family: Gilroy-heavy;
+    font-size: 43px;
+    margin: 0;
+    text-align: center;
+}
+.secondSection{
+  background: #F9FAFD;
+}
+.mainSectionSecond{
+  padding: 50px;
+}
+.skillsSectionMain{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0 0 0;
+}
+.Skill{
+    font-family: Gilroy-heavy;
+    
+    color: #fff;
+    font-size: 22px;
+    width: 117px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 31px;
+    margin: 57px 0 0px 0;
+    padding: 15px 40px 15px 40px;
+}
+.Skill:nth-child(1){
+  margin:0;
+}
+
+.portfolio{
+  display: flex;
+  margin: 50px 0 0px;
+}
+.textPortfolio h3{
+  font-family: Gilroy-heavy;
+  margin: 0;
+ font-size: 30px;
+
+}
+.textPortfolio{
+  padding: 0px 20px 0;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+select{
+      border: 0;
+    outline: 0;
+     font-family: Gilroy-bold;
+}
+option{
+
+}
+body{
+
+}
+.textPortfolio p{
+font-family: Gilroy-regular;
+}
+.textPortfolio a{
+  font-family: Gilroy-bold;
+}
+footer{
+  background: #000;
+  color:#fff;
+  font-family: Gilroy-bold;
+}
+
+@media screen and (max-width: 1100px) {
+.contacts{
+  padding: 40px 0 0px 0;
+  margin: 0;
+}
+.Me{
+  height: 100vh;
+}
+h1{
+  font-size: 3em !important    ;
+}
+.rightAbout p{
+  font-size: 18px;
+}
+.rightAbout h2{
+  font-size: 32px;
+}
+}
+@media screen and (max-width: 900px) {
+    
+    .Me img{
+ height: 400px;
+}
+.Me {
+  order: 1;
+}
+
+.leftMainInfo{
+  margin: 35px 0px 35px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  order:2;
+}
+h1{
+  text-align: center;
+}
+.flexMainCon{
+  justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+
+@media screen and (max-width: 1000px) {
+  .leftAbout img {
+    width: 55%;
+}
+.leftAbout {
+    flex: 1.2;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.rightAbout{
+  text-align: center;
+}
+.flex{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+@media screen and (min-width: 900px) {
+  .contacts{
+  padding: 20px 0 20px 0;
+}
+  }
+
+@media screen and (max-width: 900px) {
+  .lang-pH1{
+  text-align: center;
+}
+  .skillsSectionMain {
+    display: flex;
+    margin: 50px 0 0 0;
+    align-items: center;
+    flex-direction: column;
+}  
+.Skill{
+  margin: 57px 0px 0px 0px !important ;
+}
+
+}
+.hamburger{
+  display: none !important;
+}
+@media screen and (max-width: 490px) {
+h1{
+  font-size: 2em !important   ;
+}
+
+}
+@media screen and (max-width: 590px) {
+#main{
+  display: none;
+}
+
+#lang{
+  display: none;
+}
+select{
+  font-family: gilroy-bold !important;
+      background: none !important    ;
+      font-size: 20px !important ;
+}
+
+.langsw{
+  text-align: center ;
+
+}
+.hamburger{
+  display: block !important  ;
+}
+.selectMain{
+
+}
+@keyframes box {
+  0% {transform: translateX(-100%); }
+   70% {transform: translateX(0);  }
+   100%{transform: translateX(0);  }
+}
+@keyframes box1 {
+  0% {transform: translateX(0); }
+   70% {transform: translateX(-100%);  }
+   100%{transform: translateX(-100%);  }
+}
+.animateOut {
+ animation: box1  1s forwards;
+}
+html{
+  overflow-x: hidden;
+}
+.menu-opened {
+    position: fixed;
+    top: 0;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    transform: translateX(-100%);
+    background-color: rgb(255, 255, 255,.8);
+      transition: 1s;
+}
+.animate{
+  animation: box  1s forwards;
+}
+option{
+  background: none;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    font-size: 25px;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'gilroy-bold';
+  
+}
+
+
+.menu li {
+    margin: 15px;
+}
+.menu li:nth-child(1){ 
+    margin: 0px;
+}
+.top-menu-main {
+    position: relative;
+    z-index: 4;
+
+}
+}
+.textPortfolio{
+cursor: auto;
+}
+.textPortfolio button{
+cursor: pointer;
+}
+.scrolled{
+   position: fixed;
+    width: 100%;
+    z-index: 2;
+  background: #fff;
+  transition: all .3s 0s ease-in-out;
+}
+
+select{
+  font-family: gilroy-bold !important;
+  background: none !important  ;
+}
+option{
+   background: none !important  ;
+}
+@media screen and (min-width: 590px) {
+  .menu-opened{
+    display: none;
+  }
+}
+.Skill {
+  position: relative;
+  perspective: 1000px;
+}
+
+
+.Skill span{
+  position: absolute;
+  width: 100%;
+  transition: .5s;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.firstSkillMain{
+  background: #092A7E;
+}
+.SecondSkillMain{
+   background: #CC397B;
+   transform: rotateY(180deg);
+}
+
+.Skill:hover .firstSkillMain{
+  transform: rotateY(180deg);
+}
+.Skill:hover .SecondSkillMain{
+  transform: rotateY(360deg);
+}
+@media screen and (max-width: 450px) {
+ .portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textPortfolio p ,h3{
+  text-align: center;
+}
+.textPortfolio {
+    padding: 0px 20px 0;
+    display: flex;
+    margin: 30px 0 0 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.textPortfolio p{
+    text-align: center;
+}
+.lang-designed{
+  text-align: center;
+}
+}
+.lang-designed a{
+color:red;
+}

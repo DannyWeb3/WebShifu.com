@@ -1,0 +1,163 @@
+@media (max-width: 1200px) {
+	.awesome_wrapper{
+		display: none !important;
+	}
+	.main_contant{
+		box-shadow: none !important;
+	}
+	.hard_img{
+		margin-bottom: 0;
+		transform: translateY(0px);
+		box-shadow: none;
+	}
+.orange_awesome {
+    display: flex;
+    width: 62%;
+        justify-content: center;
+}
+.nigth_life{
+	text-align: center;
+	margin-bottom: 0;
+		transform: translateY(0px);
+		padding: 20px;
+
+}
+.nigth_life_wrapper{
+	padding: 0;
+
+}
+ .read_more{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .hard_img_one {
+    transform: translateY(0px);
+    margin-bottom: 0px;
+    background-position: center;
+    box-shadow: none;
+}
+}
+@media (max-width: 777px) {
+	.container{
+		max-width: 659px;
+	}
+
+}
+@media (max-width: 1677px) {
+.read_more_two{
+	    display: flex;
+    justify-content: flex-start;
+    padding: 9px 0px;
+    align-items: center;
+    flex-direction: column;
+}
+.btn-read_more{
+  }
+  .hard_text{
+  	text-align: center;
+
+  }
+  .like_commend_inline{
+  	    white-space: nowrap;
+  	    margin: 0px;
+  }
+  .like_commend span {
+    margin: inherit;
+}
+.hard_text h2{
+	display: block;
+
+}
+
+}
+
+@media (max-width: 510px) {
+.no_name{
+	width: 100% !important	;
+}
+.slick-prev, .slick-next {
+    top: 61% !important;
+}
+}
+@media (max-width: 784px) {
+
+.like_commend span {
+    margin: inherit;
+}
+.like_commend_inline {
+    white-space: nowrap;
+     margin: 0px ; 
+}
+.last_block{
+  font-size: 15px;
+}
+}
+@media (max-width: 1523px) {
+
+.no_name{
+	width: 427px;
+}
+.like_commend span {
+    display: block;
+    font-size: 21px;
+        padding: 10px;
+    margin: inherit;
+}
+}
+@media (max-width: 1282px) {
+	.hard_img{
+		margin-bottom: 0;
+	}
+
+}
+@media (max-width: 1850px) {
+	.hard_img{
+    height: 601px;
+ }
+}
+@media (max-width: 730px) {
+	.header_logo{
+		flex-direction: column;
+	}
+  .menu_wrapper{
+  	min-height: 202px;
+  	border: 2px solid;
+  	border-right: 0px;
+  	border-left: 0px;
+  }
+   .slick-dots{
+ 	    justify-content: center !important	;
+    display: flex !important	;
+ }
+	.line_wrapper{
+		    margin: 124px 0 16px;
+	}
+	.main-btn {
+    margin: 33px 0 0;
+}
+.main_input_wrapper{
+	position: absolute;
+    top: 272px;
+}
+.container{
+	max-width: 100% !important;
+
+}
+.menu_wrapper{
+	flex-direction: column;
+	align-items: center;
+}
+}
+@media (max-width:  867px) {
+	.all_contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	}
+	.all_contacts a li{
+		border-top:2px solid;
+		display: block;
+		width: 100%;
+	}
+}
