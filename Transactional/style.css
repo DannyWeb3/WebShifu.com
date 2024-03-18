@@ -1,0 +1,317 @@
+body {
+			width: 100% !important;
+			-webkit-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			margin: 0;
+			padding: 0;
+			line-height: 100%;
+		}
+
+		[style*="Raleway"] {font-family: 'Raleway', arial, sans-serif !important;}
+
+		img {
+			outline: none;
+			text-decoration: none;
+			border:none;
+			-ms-interpolation-mode: bicubic;
+			max-width: 100%!important;
+			margin: 0;
+			padding: 0;
+			display: block;
+		}
+    
+		table td {
+			border-collapse: collapse;
+		}
+    a{
+    	text-decoration:none;
+    }
+		table {
+			border-collapse: collapse;
+			mso-table-lspace: 0pt;
+			mso-table-rspace: 0pt;
+		}
+		.menuNubBox{
+			font-family: Nunito, Roboto, sans-serif;
+			font-size: 12px;
+			
+		}
+		.logoHead{
+			width: 248px;
+		}
+		.buttonMain a{
+			text-decoration: none;
+			color:#0F181A;
+			padding-top: 10px;
+   	  padding-bottom: 10px;
+    	padding-left: 30px;
+    	white-space: nowrap;
+    	border-radius: 140px;
+    	padding-right: 30px;
+			background-color:#F1BA0A;
+	
+			font-size:16px;
+			font-family: Nunito, Roboto, sans-serif;
+		}
+		.mainMenuInfo{
+			width:100%;
+		}
+		.mainMenuInfoWrap{
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		
+		.headerButtonsWrapperImg img{
+			display: inline-block;
+			margin-bottom: -2px;
+		}
+		.headerButtonsWrapperImg{
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			border-width: 1px;
+			border-radius: 30px;
+			display: block;
+			border-style: solid;
+			border-color:#E8B30A ;
+		}
+		.headerButtonsWrapperImg span{
+		margin-left: 3px;
+		font-size: 13px;
+		}
+		.headerButtonsWrapper{
+			display: inline-block;
+		}
+		.headerButtonsWrapperImg{
+			display: inline-block;
+		}
+		.headerButtonsWrapperImg span{
+			color: #f1ba0a;
+			font-family: Nunito, Roboto, sans-serif;
+			
+					font-weight: bold;
+    font-style: normal;
+		}
+.paddingMainLeft{
+padding-left: 20px;
+}
+.paddingMainRight{
+padding-right: 20px;
+}
+.headerButtonsWrapper{
+
+}
+
+	.headerButtonsWrapper span{
+			color: #666666;;
+			font-family: Nunito, Roboto, sans-serif;
+			font-weight: regular;
+			font-size: 13px;
+			white-space: nowrap;
+			font-weight: bold;
+    font-style: normal;
+		}
+			.headerButtonsWrapper{
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			border-radius: 30px;
+			display: inline-block;
+			background-color: #F5F5F5;
+		}
+		.mainImg{
+		padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+		}
+		.mainTitle{
+			  padding-bottom: 40px;
+			padding-left: 10px;
+			  padding-right: 10px;
+		}
+		.mainTitle h1{
+font-family: 'Fredoka One', helvetica, arial, sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    line-height: 47px;
+    font-weight: normal;
+    color: #0F181A;
+		}
+		.mainButton{
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			background-color: #E8B30A;
+			border-radius: 30px;
+			display: block;
+    width: 170px;
+		}
+			.mainButton span{
+			color: #0F181A;
+			font-family: Nunito, Roboto, sans-serif;
+			font-weight: bold;
+			font-size: 16px;
+   	 	font-style: normal;
+		}
+		.mainButton img{
+			display: inline-block;
+			margin-bottom: -6px;
+			padding-right: 3px;
+		}
+		.mainTitle p{
+		font-family: Nunito, Roboto, sans-serif;
+    line-height: 21px;
+    color: #0F181A;
+    margin-bottom: 35px;
+
+
+    font-size: 14px;
+		}
+			.mainTitle h1{
+	margin-bottom: 0;
+    margin-top: 0;
+		}
+		.orderWrap h2{
+			font-family: 'Fredoka One', helvetica, arial, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: normal;
+    color: #0F181A;
+		}
+		.orderWrap{
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-top: 20px;
+		}
+		.paddingProducts td{
+				padding-left: 20px;
+			padding-right: 20px;
+			padding-top: 20px;
+		}
+		.paddingProducts td img{
+			border-radius: 10px;
+		}
+		.paddingProducts td h3{
+			margin-top: 0;
+			font-family: 'Fredoka One', helvetica, arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    color: #0F181A;
+		}
+				.paddingProducts td h2{
+	font-family: 'Fredoka One', helvetica, arial, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: normal;
+    color: #0F181A;
+    
+		}
+    .paddingProducts td p{
+	font-family: Nunito, Roboto, sans-serif;
+    line-height: 21px;
+    color: #0F181A;
+    font-size: 14px;
+		}
+		.paddingProducts td b{
+			font-family: 'Fredoka One', helvetica, arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    color: #0F181A;
+  }
+  .productWrapper{
+  	padding-bottom: 10px;
+  }
+  .Total b{
+   padding-left: 10px;
+  }
+  .Total p{
+  	margin-top: 0;
+  	margin-bottom: 0;
+  }
+  .paddingTotal td{
+ 
+			padding-top: 10px !important;
+  }
+@media (max-width:610px) {
+.table-600{
+	width: 450px;
+}
+	.logoHead{
+			width: 100px;
+		}
+		h2{
+			    font-size: 1.5em !important		;
+		}
+		.noneImg {
+			display: none;
+		}
+		.paddingProducts td h3{
+			line-height: 21px;
+		}
+		.paddingMainMedia{
+
+			padding-right: 20px;
+		}
+		.paddingMainMedia1{
+			padding-left: 20px;
+		}
+}
+@media (max-width:521px) {
+.table-600{
+	width: 358px;
+}
+.paddingMainLeft {
+	display: inline-block;
+}
+ .paddingMainMedia{
+ 	display: inline-block;
+ }
+ 	.paddingMainRight{
+display: inline-block;
+ 	}
+ 	.paddingMainMedia1 {
+    padding-bottom: 20px;
+}
+ .paddingMainLeft {
+    padding-bottom: 20px;
+}
+.buttonMain a {
+    text-decoration: none;
+    color: #0F181A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    white-space: nowrap;
+    border-radius: 140px;
+    padding-right: 10px;
+    background-color: #F1BA0A;
+    font-size: 12px;
+    font-family: Nunito, Roboto, sans-serif;
+}
+.logoHead {
+    width: 70px;
+}
+.paddingProducts td h2{
+	line-height: 30px;
+}
+.paddingProducts td h3 {
+
+    font-size: 16px;
+  
+}
+.nonePad{
+	padding-right: 0 !important	;
+}
+.paddingProducts td p{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+}
