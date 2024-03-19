@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://kit.fontawesome.com/8394073572.css" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="main-menu-wrap">
+				<a href='#' class="logo">
+					<img src="img/Logo.png" alt="logo">
+				</a>
+				<ul>
+					<li>
+						<a href="#">
+							<i class="fa-brands fa-facebook"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa-brands fa-instagram"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa-brands fa-twitter"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="mainWrapper">
+				<div class="leftContent">
+			<h1>Join Meet and be part of this<br />
+			great coworking community</h1>
+			
+					<div class="inpWrap">
+						<input type="text" placeholder='Name' name="contact_name" id='Name'>
+						<input type="text" placeholder='Email' style='margin-top: 10px;' id='Email'>
+						<input type="text" placeholder='Where do you work? ' style='margin-top: 10px;' id='Job'>					
+					</div>
+					<div class="textArea" style='margin-top: 10px;'>
+						<textarea name="#" placeholder='Messege' cols="30" rows="10" id='Messege'></textarea>			
+					</div>
+					<div class="privacy" style='margin-top: 10px;'>
+						<input type="checkbox" id='cheak' style='display: inline-block; width: auto;' >
+						 <label for="cheak">I accept and have read the privacy notice</label>
+						 <input type='submit' class='buttonMain' value='Join Meet now' style='margin-top: 10px;' />
+						 <p id='name'></p>
+						 <p id='email'></p>
+						 <p id='job'></p>
+						 <p id='messege'></p>
+						 <p id='privacy'></p>
+						 <p id='success'></p>
+					</div>
+					
+						
+					
+			
+			</div>
+				<div class="mainImg">
+					<div class="textBot">
+						<span>Schedule your tour <br> and get to know our facilities</span>
+						<p>Call us at 547 0432</p>
+					</div>				
+				</div>
+					<div class='footerAdaptive'>
+						<span>Schedule your tour <br> and get to know our facilities</span>
+						<p>Call us at 547 0432</p>
+					</div>		
+			</div>
+		</div>
+	</header>
+	<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/8394073572.js" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+<!--
+let mark = true;
+let counter = 0;
+let a = 0;
+$('.buttonMain').on('click',function(){
+	console.log($('#cheak').val())
+	 if ( $('#Name').val() == "" )
+        {
+               $('#name').html('Submit your name').css({'color':'red'})
+               mark = false;
+               counter++;
+        }
+        else {
+        	$('#name').html('')
+        	 a++
+        	
+        	 console.log(a)
+        }Messege
+   if ( $('#Email').val() == "" )
+        {
+               $('#email').html('Submit your email').css({'color':'red'})
+               mark = false;
+
+        }	
+        else{
+        	 $('#email').html('')
+        	 a++;
+        	  console.log(a)
+        }
+         if ( $('#Messege').val() == "" )
+        {
+               $('#messege').html('Submit your messege').css({'color':'red'})
+               mark = false;
+
+        }	
+        else{
+        	 $('#messege').html('')
+        	 a++;
+        	  console.log(a)
+        }
+          if ( $('#Job').val() == "" )
+        {
+               $('#job').html('Submit your job').css({'color':'red'})
+               mark = false;
+
+        }	
+        else{
+        	 $('#job').html('')
+        	 a++;
+        	  console.log(a)
+        }
+        if(!document.getElementById('cheak').checked){
+        	 $('#privacy').html('Accept privacy ').css({'color':'red'})
+        	  mark = false;
+        }
+        else{
+        	 $('#privacy').html('')
+        	 a++;
+        	 console.log(a)
+        }
+
+        if(a >= 3 && document.getElementById('name').innerHTML == '' && document.getElementById('job').innerHTML == '' && document.getElementById('messege').innerHTML == '' && document.getElementById('email').innerHTML == '' && document.getElementById('privacy').innerHTML == ''){
+ 		
+        	 $('#name').html('Thank you!').css({'color':'#00D521'})
+        	 $('#Name').val('') 
+        	 $('#Email').val('') 
+        	 $('#Job').val('')
+        	 $('#Messege').val('') 
+        	 $('#email').html('')
+        	 $('#privacy').html('')
+
+        	 a *= 0;
+        }
+})
+</script>
+
+
+</body>
+</html>

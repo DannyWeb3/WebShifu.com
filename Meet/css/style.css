@@ -1,0 +1,170 @@
+body{
+	font-family: 'Barlow', sans-serif;
+	background: url(../img/bg.jpg) no-repeat ;
+	background-size: cover;
+	color: #fff;
+
+}
+.container{
+	max-width: 1300px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 20px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.logo img{
+	max-width: 150px;
+}
+
+header{
+	height: 100vh;
+}
+li{
+	list-style: none;
+	display: inline-block;
+	padding-left: 10px;
+}
+h1{
+	color:#fff;
+}
+li a{
+	color: #fff;
+}
+ul{
+	margin: 0;
+}
+input, textarea {
+   
+    border: 1px solid #fff;   
+    width:350px ;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.main-menu-wrap{
+	display: flex;
+	justify-content: space-between;
+}
+input::placeholder {
+    font-weight: medium;
+    color: #000;
+}
+textarea::placeholder {
+    font-weight: medium;
+    color: #000;
+}
+.buttonMain{
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+	background: #000;
+	padding-top: 10px;
+	border:0;
+	padding-bottom: 10px;
+	text-align: center;
+	display: block;
+
+}
+.mainWrapper{
+	display: flex;
+	justify-content: space-between;
+}
+.mainImg{
+	width: 100%;
+	background: url(../img/mainImg.png) no-repeat;
+	background-size: contain;
+	background-position: right;
+	position: relative;
+}
+.mainImg span{
+color: #00D5E8;
+text-decoration: underline;
+
+}
+.footerAdaptive{
+	display: none;
+}
+.footerAdaptive span{
+	color: #00D5E8;
+text-decoration: underline;
+}
+.footerAdaptive p{
+	color: #00D5E8;
+font-weight: medium;
+	margin-bottom: 0;
+}
+
+.textBot{
+	position: absolute;
+    bottom: 0;
+    left:70px;
+}
+.textBot p{
+color: #00D5E8;
+font-weight: medium;
+	margin-bottom: 0;
+}
+.leftContent{
+	padding-right: 20px;
+}
+@media (max-width:1023px) {
+.textBot{
+	left:0;
+}
+}
+@media (max-width:770px) {
+.mainWrapper{
+	flex-direction: column;
+}
+.mainImg{
+	height: 100vh;
+	background-position:auto;
+}
+input, textarea {
+	width: 100%;
+}
+.buttonMain{
+	margin: 30px 0 30px !important;
+    width: 200px;
+}
+}
+
+@media (max-width:630px) {
+.mainImg{
+	height: 70vh;
+}
+}
+@media (max-width:511px) {
+.mainImg{
+	height: 50vh;
+}
+}
+@media (max-width:511px) {
+.footerAdaptive{
+	display: block;
+	margin-top:25px;
+	text-align: center;
+}
+.textBot{
+	display: none;
+}
+.container{
+	padding-bottom: 20px;
+}
+.mainImg{
+	background-position: center;
+}
+}
+@media (max-width:330px) {
+.logo img {
+    max-width: 109px;
+}
+.buttonMain {
+   
+    width: 141px;
+}
+}
