@@ -1,0 +1,133 @@
+@media (max-width: 1023px) {
+	.news_wrapper_spin{
+    width: 700px;
+  }
+
+}
+@media (max-width: 1200px) {
+.namber_seven_bg_main {
+    background-position: center top;
+}
+.namber_four_bg_main {
+    background-position: center top;
+}
+.interval_one{
+    transform: translate(0px); 
+  }
+  .interval_two{
+    transform: translate(0px); 
+  }
+  a{
+    font-family: Roboto, sans-serif !important;
+  }
+  .lion_wrapper{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.media_iframe{
+  height: 300px;
+}
+.footer_content_center_wrapper:before {
+   display: none;
+    }
+    .footer_contant_right_wrapper:before{
+      display: none;
+    }
+.padding_new{
+  margin-top: 25px;
+
+}
+.feadBack{
+  text-align: left;
+  margin-left: 10px;
+}
+.flex-calendar-none{
+  display: none;
+}
+}
+@media (max-width: 990px) {
+  .main-menu-top{
+    display: flex;
+    justify-content: center;
+  }
+  .logo{
+    margin: 0 auto;
+    display: block;
+  }
+  .marquee{
+   width: 567px;
+  }
+  .footer_content_left_wrapper{
+    text-align: center;
+  }
+  .flex-text-unusuall{
+    justify-content: center;
+  }
+  .footer_content_center_wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer_contant_right_wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}  
+
+@media (max-width: 767px) {
+ .red_block_news:after{
+  display: none;
+ }
+ .marquee_wrapper{
+  transform: translateX(0px) !important;
+ }
+ .footer_content_center_wrapper:before {
+   display: none;
+    }
+    .footer_contant_right_wrapper:before{
+      display: none;
+    }
+    .last_menu_footer_wrapper{
+  border: 0px;
+}
+}   
+@media (max-width: 570px) {
+ .marquee{
+   width: 100% !important;
+  }
+  .news_wrapper_spin{
+     width: 100% !important;
+  }
+}
+@media (max-width: 626px) {
+ .main-menu-top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+ .marquee{
+   width: 535px;
+  }
+  #home{
+    display: block;
+  }
+  .flex-wrapper-logo {
+    height: 100%; 
+}
+.main-menu-top a:first-child {
+    display: none;
+}
+.main-menu-top a {
+    margin-left: 0px;
+}
+.last_menu_footer_wrapper{
+  margin-top: 20px;
+}
+}   
+
+@media (max-width: 770px) {
+  .last_text{
+    margin: 0 auto;
+  }
+}   
