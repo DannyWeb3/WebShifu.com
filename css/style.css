@@ -2466,7 +2466,12 @@ html,body{
 .hero-area .hero-icons li{
 font-size: 40px;
   }
-.
+    .hero-area .hero-icons li:first-child img {
+   width:40px !important;
+}
+  .hero-area .image-wrapper img{
+    width:40px !important;
+  }
 }
 @media (max-width: 375px){
 .hero-area .hero-icons li{
@@ -2480,11 +2485,5 @@ font-size: 30px;
     left: 8px;
     bottom: 96px;
 }
-    .hero-area .hero-icons li:first-child img {
-   width:40px !important;
-}
-  .hero-area .image-wrapper img{
-    width:40px !important;
-  }
   
 }
