@@ -2466,10 +2466,10 @@ html,body{
 .hero-area .hero-icons li{
 font-size: 40px;
   }
-    .hero-area .hero-icons li:first-child img {
+    .framer {
    width:40px !important;
 }
-  .hero-area .image-wrapper img{
+  .figma {
     width:40px !important;
   }
 }
