@@ -1,0 +1,15 @@
+.comments_face .add-comment-wrap{
+	background-color: #eeeff4;
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+}
+.add-comment-wrap button{
+	display: block;
+	margin-top:10px;
+}
+.add-comment-wrap textarea{
+	margin-top:10px;
+}
+.comment-content p{
+	word-wrap: break-word;
+}
