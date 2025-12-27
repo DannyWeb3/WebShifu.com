@@ -1,0 +1,428 @@
+:root {
+            --color-primary: #323894;
+        }
+
+        header {
+            padding-left: 10px;
+            padding-right: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+        }
+
+        .header-row {
+            padding: 16px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .burger {
+            background-color: transparent;
+            border: none;
+        }
+
+        .burger span {
+            margin-bottom: 6px;
+            display: block;
+            width: 22px;
+            height: 2px;
+            background-color: #101010;
+        }
+
+        .burger span:last-child {
+            margin-bottom: 0;
+        }
+
+        .header__logo {
+            width: 220px !important;
+            margin-left: 40px;
+        }
+
+        .header__logo svg {
+            width: 220px;
+        }
+
+        @images (max-width:600px) {
+            .header__logo {
+                width: 160px !important;
+                margin-left: 10px;
+                margin-right: auto;
+            }
+
+            .header__logo svg {
+                width: 160px !important;
+            }
+
+            .header-item img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+      
+        :root {
+            --popup_border_radius: 0px;
+            --general_layout_width: 1200px;
+            --general_layout_spacing: 80px;
+            --button_border_radius: 6px;
+            --full_container_padding: 50px;
+            --page_background_color: #fff;
+            --title_color: #121b17;
+            --main_color: #121b17;
+            --detail_color: #121b17;
+            --buying_parice_color: #D21936;
+            --original_price_color: #FFFFFF;
+            --discount_tag_bg: #AE2238;
+            --discount_tag_color: #fff;
+            --main_button_bg: #0050AA;
+            --main_button_color: #fff;
+            --secondary_button_bg: #fff;
+            --secondary_button_color: #0050AA;
+            --title_font_family: 'LidlFontCondPro';
+            --general_font_family: 'LidlFontCondPro';
+            --title_font_size: 32px;
+            --general_font_size: 16px;
+            --product_font_size: 13px;
+            --big_product_font_size: 28px;
+            --title_letter_spacing: 1pxpx;
+            --nav_letter_spacing: 1pxpx;
+            --product_img_cut: cover;
+
+            --title_font_style: normal;
+            --title_font_weigth: 400;
+
+
+            --general_font_style: normal;
+            --general_font_weigth: 400;
+
+            --general_line_height: 1.5;
+            --wap_title_scale: 0.75;
+            --title_margin_bottom_scale: 0.75;
+        }
+       
+        @font-face {
+            font-family: "shopyy-iconfont";
+            src: url("//at.alicdn.com/t/font_2896643_ob2tz19uygg.woff2?t=1635735739031") format("woff2"), url("//at.alicdn.com/t/font_2896643_ob2tz19uygg.woff?t=1635735739031") format("woff"), url("//at.alicdn.com/t/font_2896643_ob2tz19uygg.ttf?t=1635735739031") format("truetype")
+        }
+
+        .shopyy-iconfont {
+            font-family: "shopyy-iconfont" !important;
+            font-size: 16px;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale
+        }
+
+        .shopyyicon-a-countdown2::before {
+            content: ""
+        }
+
+        .shopyyicon-a-countdown3::before {
+            content: ""
+        }
+
+        .shopyyicon-a-countdown5::before {
+            content: ""
+        }
+
+        .shopyyicon-a-countdown1::before {
+            content: ""
+        }
+
+        .shopyyicon-a-countdown4::before {
+            content: ""
+        }
+
+        #app_countdown_wrap {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 44px;
+            background-color: #ffe5e9;
+            border: 1px solid #ffe5e9
+        }
+
+        #app_countdown_wrap>.icon-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%
+        }
+
+        #app_countdown_wrap>.icon-container>.shopyy-iconfont {
+            margin: 0 10px;
+            font-size: 16px
+        }
+
+        #app_countdown_wrap>.text-container {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap
+        }
+
+        #app_countdown_wrap>.text-container .countTime {
+            margin: 0 4px;
+            font-weight: bold
+        }
+
+        #app_countdown_minicart_wrap {
+            position: sticky;
+            top: 80px;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 44px;
+            background-color: #ffe5e9;
+            border: 1px solid #ffe5e9
+        }
+
+        @images screen and (max-width: 767px) {
+            #app_countdown_minicart_wrap {
+                top: 60px
+            }
+        }
+
+        #app_countdown_minicart_wrap>.icon-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%
+        }
+
+        #app_countdown_minicart_wrap>.icon-container>.shopyy-iconfont {
+            margin: 0 10px;
+            font-size: 16px
+        }
+
+        #app_countdown_minicart_wrap>.text-container {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap
+        }
+
+        #app_countdown_minicart_wrap>.text-container .countTime {
+            margin: 0 4px;
+            font-weight: bold
+        }
+
+        .app_goods_countdown-wrap {
+            margin: 16px 0
+        }
+
+        .app_goods_countdown-wrap .content {
+            position: relative;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: 1px solid
+        }
+
+        @images screen and (max-width: 767px) {
+            .app_goods_countdown-wrap .content {
+                flex-direction: column;
+                height: auto !important;
+                padding: 12px 20px !important
+            }
+
+            .app_goods_countdown-wrap .content .text {
+                align-items: center;
+                justify-content: center;
+                width: 100% !important;
+                margin-bottom: 8px
+            }
+
+            .app_goods_countdown-wrap .content .text .text-content {
+                width: auto !important;
+                max-width: 70vw
+            }
+        }
+
+        .app_goods_countdown-wrap .content .text {
+            display: flex;
+            flex: 1;
+            align-items: center;
+            width: calc(100% - 300px)
+        }
+
+        .app_goods_countdown-wrap .content .text i {
+            margin-right: 6px;
+            font-size: inherit
+        }
+
+        .app_goods_countdown-wrap .content .text .text-content {
+            width: 100%;
+            overflow: hidden;
+            font-size: inherit;
+            text-overflow: ellipsis;
+            white-space: nowrap
+        }
+
+        .app_goods_countdown-wrap .content .time {
+            z-index: 10;
+            display: grid
+        }
+
+        .app_goods_countdown-wrap .content .time.none .h,
+        .app_goods_countdown-wrap .content .time.none .m,
+        .app_goods_countdown-wrap .content .time.none .s {
+            justify-content: center
+        }
+
+        .app_goods_countdown-wrap .content .time.none .h>div:nth-child(2),
+        .app_goods_countdown-wrap .content .time.none .m>div:nth-child(2),
+        .app_goods_countdown-wrap .content .time.none .s>div:nth-child(2) {
+            display: none
+        }
+
+        .app_goods_countdown-wrap .content .time .h,
+        .app_goods_countdown-wrap .content .time .s,
+        .app_goods_countdown-wrap .content .time .m {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            padding: 8px 0;
+            color: #f95a5a;
+            background-color: rgba(255, 255, 255, .95);
+            border-radius: 5px
+        }
+
+        .app_goods_countdown-wrap .content .time .h>div:nth-child(1),
+        .app_goods_countdown-wrap .content .time .s>div:nth-child(1),
+        .app_goods_countdown-wrap .content .time .m>div:nth-child(1) {
+            font-size: 16px;
+            font-weight: bold
+        }
+
+        .app_goods_countdown-wrap .content .time .h>div:nth-child(2),
+        .app_goods_countdown-wrap .content .time .s>div:nth-child(2),
+        .app_goods_countdown-wrap .content .time .m>div:nth-child(2) {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 0 10%;
+            overflow: hidden;
+            font-size: 12px;
+            text-align: center;
+            text-overflow: ellipsis;
+            white-space: nowrap
+        }
+
+        .app_goods_countdown-wrap .content .mask {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            opacity: .15
+        }
+
+        .app_goods_countdown-wrap .default-size {
+            padding: 10px 20px
+        }
+
+        .app_goods_countdown-wrap .default-size .time {
+            grid-template-rows: 50px;
+            grid-template-columns: 50px 50px 50px;
+            grid-column-gap: 12px;
+            margin-left: 8px
+        }
+
+        .app_goods_countdown-wrap .default-size .time .h,
+        .app_goods_countdown-wrap .default-size .time .m,
+        .app_goods_countdown-wrap .default-size .time .s {
+            line-height: 16px
+        }
+
+        .app_goods_countdown-wrap .big-size {
+            padding: 10px 20px
+        }
+
+        .app_goods_countdown-wrap .big-size .time {
+            grid-template-rows: 60px;
+            grid-template-columns: 60px 60px 60px;
+            grid-column-gap: 11px;
+            margin-left: 8px
+        }
+
+        .app_goods_countdown-wrap .small-size {
+            padding: 6px 20px
+        }
+
+        .app_goods_countdown-wrap .small-size .time {
+            grid-template-rows: 44px;
+            grid-template-columns: 44px 44px 44px;
+            grid-column-gap: 8px;
+            margin-left: 8px
+        }
+
+        .app_goods_countdown-wrap .small-size .time .h,
+        .app_goods_countdown-wrap .small-size .time .m,
+        .app_goods_countdown-wrap .small-size .time .s {
+            padding: 0;
+            line-height: 14px
+        }
+
+        .app_goods_countdown-wrap .small-size .time .h>div:nth-child(1),
+        .app_goods_countdown-wrap .small-size .time .m>div:nth-child(1),
+        .app_goods_countdown-wrap .small-size .time .s>div:nth-child(1) {
+            font-size: 14px
+        }
+
+        .bg-content {
+            padding: 24px
+        }
+
+        .bg-content .bg-content-ul {
+            max-height: 400px;
+            overflow: auto;
+            list-style: none
+        }
+
+        .bg-content .bg-content-ul li {
+            position: relative;
+            margin-bottom: 12px;
+            cursor: pointer
+        }
+
+        .bg-content .bg-content-ul li:nth-last-child(1) {
+            margin-bottom: 0
+        }
+
+        .bg-content .bg-content-ul li svg {
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1;
+            display: none;
+            width: 30px;
+            height: 30px
+        }
+
+        .bg-content .bg-content-ul li.active .mask {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: 2px solid #2a6bf1
+        }
+
+        .bg-content .bg-content-ul li.active>svg {
+            display: block
+        }
